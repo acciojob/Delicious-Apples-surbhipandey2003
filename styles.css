@@ -1,1 +1,80 @@
-/* your code here */
+.product {
+	background-color: #2ecc71;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 40px;
+}
+.photo-main {
+	background-color: #a8d95f;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.price {
+	color: red;
+	font-size: 30px;
+}
+.photo-main img {
+	width: 250px;
+	display: block;
+	margin: 0 auto;
+}
+.product__info {
+	background-color: white;
+	padding: 30px;
+	/* width: 300px; */
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.photo-album ul {
+	background-color: white;
+	display: flex;
+	list-style: none;
+	margin: 0px;
+	gap: 10px;
+	padding:10px;
+}
+.first_list {
+	border: 1px solid gray;
+	width: 50px;
+	height:50px;
+}
+.photo-container {
+	width: 250px;
+}
+.variant ul {
+	display: flex;
+	list-style:none;
+	padding: 0;
+}
+.code {
+	color: gray;
+	margin: 0ox;
+}
+.variant img{
+	width: 30px;
+	height: 30px;
+}
+.variant {
+	color: gray;
+}
+.ben {
+	color: gray;
+}
+.b_t {
+	background-color: red;
+	color: white;
+	border: none;
+	padding: 15px 30px;
+	border-radius: 5px;
+	width: 150px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.controls {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
